@@ -16,7 +16,6 @@ Requires:	openssl
 Requires(post): rpm-helper
 Requires(preun): rpm-helper
 BuildRequires:	openldap-devel
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 LDAPDNS is a ultra-fast, stable, multithreaded DNS server that
