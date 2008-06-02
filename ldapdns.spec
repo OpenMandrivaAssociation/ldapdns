@@ -109,9 +109,9 @@ perl -pi -e "s|^RUN_GID=.*|RUN_GID=$RUN_GID|g" %{_sysconfdir}/ldapdns.conf
 %attr(0755,root,root) %{_initrddir}/ldapdns
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/sysconfig/ldapdns
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/ldapdns.conf
-%attr(0755,ldapdns,ldapdns) %dir %{_localstatedir}/ldapdns
-%attr(0640,ldapdns,ldapdns) %config(noreplace) %{_localstatedir}/ldapdns/password
-%attr(0600,ldapdns,ldapdns) %{_localstatedir}/ldapdns/axfr
+%attr(0755,ldapdns,ldapdns) %dir %{_localstatedir}/lib/ldapdns
+%attr(0640,ldapdns,ldapdns) %config(noreplace) %{_localstatedir}/lib/ldapdns/password
+%attr(0600,ldapdns,ldapdns) %{_localstatedir}/lib/ldapdns/axfr
 %attr(0755,root,root) %{_sbindir}/ldapdns
 %attr(0755,root,root) %{_sbindir}/ldapaxfr
 
