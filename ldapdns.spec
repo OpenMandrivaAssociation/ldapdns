@@ -1,7 +1,7 @@
 Summary:	DNS server that pulls data from an LDAP directory
 Name:		ldapdns
 Version:	2.06
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	GPL
 Group:		System/Servers
 URL:		http://www.nimh.org/
