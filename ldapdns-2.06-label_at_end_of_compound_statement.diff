@@ -1,0 +1,10 @@
+--- ldapdns.c	2004-12-31 03:48:24.000000000 +0100
++++ ldapdns.c.oden	2005-01-01 14:00:06.200006188 +0100
+@@ -21,6 +21,7 @@
+ 		list_push(&x, lp->str);
+ 		list_push(&seen, lp->str);
+ HIT:
++		continue;
+ 	}
+ 
+ 	lp = *p;

@@ -1,0 +1,6 @@
+sources:
+  "ldapdns-2.06.tar.bz2:"	06e9c072d355e2f2f4bbf33e8c3c90de0101ddf3
+  "ldapdns.conf.bz2:"	21276f70117ce80c8211e106a61e7f8f7c67f5aa
+  "ldapdns-init.bz2:"	00dba93269f3bb6b975a2d2d16a8dc43429d5058
+  "ldapdns-ldif.bz2:"	709c7b2c007d0496f5c439fadd458b9891b71317
+  "ldapdns-syscfg.bz2:"	76b109de58b9ecd1d58fd9f3f2918f76094a4c97
