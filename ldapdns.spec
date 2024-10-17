@@ -4,7 +4,7 @@ Version:	2.06
 Release:	%mkrel 7
 License:	GPL
 Group:		System/Servers
-URL:		http://www.nimh.org/
+URL:		https://www.nimh.org/
 Source0:	%{name}-%{version}.tar.bz2
 Source1:	%{name}-init.bz2
 Source2:	%{name}-syscfg.bz2
